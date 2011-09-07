@@ -1,0 +1,11 @@
+#downbuttoncontainer{
+	text-align: center;
+	vertical-align: top;
+}
+
+#versioncontainer{
+	margin: 3px 0px 0px 0px;
+	font-size: 80%;
+	font-style: italic;
+	color: #3a509e;
+}
