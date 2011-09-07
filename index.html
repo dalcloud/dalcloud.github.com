@@ -139,39 +139,36 @@ abcd abcddd </p>                            </td>
                             <tr height="100%">
                                 <td align="center">
                                                                         <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'search',
-  search: 'cloud',
-  interval: 30000,
-  title: 'Dalcloud Twitter',
-  subject: 'Open Cloud Application Engine',
-  width: 240,
-  height: 300,
-  theme: {
-    shell: {
-      background: '#8ec1da',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#444444',
-      links: '#1985b5'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: true,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: true,
-    toptweets: true,
-    behavior: 'default'
-  }
-}).render().start();
-</script>
+                                    <script>
+                                    new TWTR.Widget({
+                                    version: 2,
+                                    type: 'profile',
+                                    rpp: 4,
+                                    interval: 30000,
+                                    width: 250,
+                                    height: 300,
+                                    theme: {
+                                        shell: {
+                                        background: '#569de3',
+                                        color: '#ffffff'
+                                        },
+                                        tweets: {
+                                        background: '#ffffff',
+                                        color: '#242424',
+                                        links: '#3f78cc'
+                                        }
+                                    },
+                                    features: {
+                                        scrollbar: true,
+                                        loop: false,
+                                        live: true,
+                                        hashtags: true,
+                                        timestamp: true,
+                                        avatars: false,
+                                        behavior: 'default'
+                                    }
+                                    }).render().setUser('dalcloud').start();
+                                    </script>
                                                                     </td>
                             </tr>
                         </table>
@@ -182,7 +179,7 @@ new TWTR.Widget({
 </table>        </article>
       </div> <!--! end of #container -->
   <footer>
-	Copryright(C) 2011 Narantech Inc.
+	Copryright(C) 2011 Narantech Inc. All right reserved.
   </footer>
   </body>
 </html>
