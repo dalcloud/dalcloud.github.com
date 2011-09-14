@@ -40,7 +40,7 @@ body{
 }
 	
 #container{
-    width: 910px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -116,6 +116,14 @@ footer{
 	padding: 10px 0px 10px 0px;
 	vertical-align: top;
 	color: #292929;
+}
+#maincontentbody h2{
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 5px;
+}
+#maincontentbody p{
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 25px;
 }
 
 #downbuttoncontainer{
