@@ -121,8 +121,12 @@ footer{
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 5px;
 }
-#maincontentbody p{
+#maincontentbody h4{
 	-webkit-margin-before: 0;
+	-webkit-margin-after: 25px;
+}
+#maincontentbody p{
+	-webkit-margin-before: 10px;
 	-webkit-margin-after: 25px;
 }
 
