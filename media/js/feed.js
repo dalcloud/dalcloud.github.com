@@ -1,7 +1,7 @@
 /**
 * Dalcloud recent post parser using google feed API.
 **/
-var feedUrl = "http://rss.slashdot.org/Slashdot/slashdot";	// sucscription feed url.
+var feedUrl = "http://blog.dalcloud.com/feeds/posts/default";	// sucscription feed url.
 var feedLimit = 5;	// Display size.
 
 google.load("feeds", "1");

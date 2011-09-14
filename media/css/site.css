@@ -28,6 +28,11 @@ a:hover{
     float: left;
 }
 
+#externalmenu{
+	-webkit-margin-after: 0px;
+	-webkit-margin-before: 0px;
+}
+
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, san s-serif;
     padding: 0;
@@ -35,7 +40,7 @@ body{
 }
 	
 #container{
-    width: 860px;
+    width: 910px;
     margin: 0 auto;
 }
 
@@ -111,10 +116,6 @@ footer{
 	padding: 10px 0px 10px 0px;
 	vertical-align: top;
 	color: #292929;
-}
-
-#externallinkmenu{
-	width: 500px;
 }
 
 #downbuttoncontainer{
