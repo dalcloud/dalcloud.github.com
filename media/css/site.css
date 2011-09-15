@@ -34,7 +34,7 @@ a:hover{
 }
 
 body{
-    font-family: "Helvetica Neue", Helvetica, Arial, san s-serif;
+    font-family: lucida sans unicode, lucida grande, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -82,7 +82,7 @@ body{
 #bodycontent{
 	padding: 10px;
     background-color: white;
-	font-size: 110%;
+	font-size: 100%;
 }
 
 .toplogo {
@@ -112,7 +112,13 @@ footer{
 	font-size: 120%;
 }
 
+#intoroducingbody{
+	color: #292929;
+	font-size: 120%;
+}
+
 #maincontentsubtitle{
+	font-size: 110%;
 	padding: 5px;
 	background-color: #edffde;
 	color: #4d613e;
@@ -199,7 +205,6 @@ footer{
 	border:1px solid #2d4480;
 	display:inline-block;
 	color:#e6e6e6;
-	font-family:arial;
 	font-size:15px;
 	font-weight:bold;
 	padding:11px 24px;
